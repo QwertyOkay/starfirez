@@ -1,0 +1,197 @@
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  // box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}
+
+
+.button__modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  min-height: 30px;
+  min-width: 30px;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,.1);
+  cursor: pointer;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button__modal4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  min-height: 30px;
+  min-width: 30px;
+  padding: 0;
+  background-color: #43588d;
+  color: #000;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,.1);
+  cursor: pointer;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus, 
+    &:hover {
+       color: brown;
+  }
+}
+
+.button__modal5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  min-height: 30px;
+  min-width: 30px;
+  padding: 0;
+  background-color: #0d0d0d;
+  color: #000;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,.1);
+  cursor: pointer;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus, 
+    &:hover {
+       color: brown;
+  }
+}
+
+.button__modal1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background-color: #0d0d0d;
+  align-items: center;
+  top: 11px;
+  min-height: 30px;
+  right: 11px;
+  border: 1px solid rgba(0,0,0,.1);
+  min-width: 30px;
+  padding: 0;
+  border-radius: 50%;
+  color: #000;
+  transition-property: color;
+  transition-duration: 250ms;
+  cursor: pointer;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus, 
+    &:hover {
+       color: brown;
+  }
+}
+
+.button__modal2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  min-height: 30px;
+  background-color: #0d0d0d;
+  min-width: 30px;
+  border-radius: 50%;
+  padding: 0;
+  border: 1px solid rgba(0,0,0,.1);
+  color: #000;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+
+  &:focus, 
+    &:hover {
+       color: brown;
+  }
+}
+
+.button__modal3 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  min-height: 30px;
+  top: 11px;
+  right: 11px;
+  background-color: #0d0d0d;
+  padding: 0;
+  min-width: 30px;
+  color: #000;
+  border: 1px solid rgba(0,0,0,.1);
+  cursor: pointer;
+  border-radius: 50%;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+
+  &:focus, 
+    &:hover {
+       color: brown;
+  }
+}
+
+.section__buttons { 
+display: flex;
+    list-style: none;
+    justify-content: center;flex-direction:inherit;
+}
+
+.section__buttonss {
+    border: 2px solid #fff;
+    background-color: rgba(0,0,0,0);
+    font-size: initial;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-shadow: none;
+    text-align: center;
+    background: #43588d;
+    color: #fff;
+    line-height: 44px;
+    font-weight: normal;
+    -webkit-transition: background .5s ease,color .5s ease;
+    -moz-transition: background .5s ease,color .5s ease;
+    -o-transition: background .5s ease,color .5s ease;
+    transition: background .5s ease,color .5s ease;
+    z-index: 5;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+}
