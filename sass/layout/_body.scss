@@ -1,8 +1,7 @@
 body {
-    font-family: "Oswald", sans-serif;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Anton', sans-serif;
     margin: 0px;
-    color: #fff;
+    // color: #fff;
     letter-spacing: normal;
 
 }
@@ -93,7 +92,7 @@ text-decoration: none;
 }
 
 .wrapper__items {
-    flex: 1 1 300px;
+    flex: 1 1 333px;
     display: list-item;
     text-align: -webkit-match-parent;
     margin-bottom: 30px;
@@ -168,7 +167,7 @@ font-size: 1.4rem;
     text-transform: capitalize;
     /* padding-bottom: 10px; */
     text-align: center;
-    color: #0d0d0d;
+    color: #fff;
 }
 
 .mr20 {
@@ -275,7 +274,7 @@ button {
 
 .header {
         position: fixed;
-          z-index: 2;
+        z-index: 3;
           background:#1f1f1f;
           width: 100%;top: 5%;
           top:0;

@@ -1,14 +1,17 @@
 body {
-    background-color: #eee;
+    background-color: #0d0d0d;
     text-align: center;
     padding-top: 50px;
 }
 
 .nav {
+    margin-top: 60px;
+    margin-bottom: 225px;
     display: block;
     text-transform: uppercase;
-    margin: 0; 
     padding: 0;
+    position: relative;
+    z-index: 2;
 }
 
 .nav li {
@@ -22,21 +25,22 @@ body {
 
 .nav li a {
     display: block;
-    color: #333;
-    background-color: #fff;
-    padding: 10px 20px;
+    color: #fff;
+    background-color: #e0000f;
+    padding: 18px 72px;
     text-decoration: none;
+    font-size: large;
 }
 
 .nav li a span {
     display: inline-block;
     margin-left: 5px;
     font-size: 10px;
-    color: #999;
+    color: #fff;
 }
 
 .nav li a:hover, .nav li a.dropdown-toggle.active {
-    background-color: #289dcc;
+    background-color: rgba(209,0,14,.8);
     color: #fff;
 }
 

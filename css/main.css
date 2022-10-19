@@ -2571,10 +2571,8 @@ u, ins {
 }
 
 body {
-  font-family: "Oswald", sans-serif;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Anton", sans-serif;
   margin: 0px;
-  color: #fff;
   letter-spacing: normal;
 }
 
@@ -2667,7 +2665,7 @@ a {
 }
 
 .wrapper__items {
-  flex: 1 1 300px;
+  flex: 1 1 333px;
   display: list-item;
   text-align: -webkit-match-parent;
   margin-bottom: 30px;
@@ -2741,7 +2739,7 @@ a {
   text-transform: capitalize;
   /* padding-bottom: 10px; */
   text-align: center;
-  color: #0d0d0d;
+  color: #fff;
 }
 
 .mr20 {
@@ -2866,7 +2864,7 @@ button {
 
 .header {
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   background: #1f1f1f;
   width: 100%;
   top: 5%;
@@ -3559,16 +3557,19 @@ button {
   }
 }
 body {
-  background-color: #eee;
+  background-color: #0d0d0d;
   text-align: center;
   padding-top: 50px;
 }
 
 .nav {
+  margin-top: 60px;
+  margin-bottom: 225px;
   display: block;
   text-transform: uppercase;
-  margin: 0;
   padding: 0;
+  position: relative;
+  z-index: 2;
 }
 
 .nav li {
@@ -3582,21 +3583,22 @@ body {
 
 .nav li a {
   display: block;
-  color: #333;
-  background-color: #fff;
-  padding: 10px 20px;
+  color: #fff;
+  background-color: #e0000f;
+  padding: 18px 72px;
   text-decoration: none;
+  font-size: large;
 }
 
 .nav li a span {
   display: inline-block;
   margin-left: 5px;
   font-size: 10px;
-  color: #999;
+  color: #fff;
 }
 
 .nav li a:hover, .nav li a.dropdown-toggle.active {
-  background-color: #289dcc;
+  background-color: rgba(209, 0, 14, 0.8);
   color: #fff;
 }
 
