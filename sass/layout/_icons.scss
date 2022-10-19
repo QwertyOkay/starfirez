@@ -25,7 +25,7 @@
 // -------------------------- //
 
 .modal__input:focus + .icon__modal-img {
-  fill: var(--accent-color);
+  fill: #e0000f;
 }
 
 .icon__modal-img {
@@ -44,12 +44,6 @@
   transition-duration: $duration;
   transition-timing-function: $function;
   /* fill: currentColor; */
-}
-
-.icon__check {
-  width: 16px;
-  height: 15px;
-  fill: currentColor;
 }
 
 .icon__client {

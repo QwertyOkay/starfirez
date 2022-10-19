@@ -64,20 +64,20 @@
 .button__modal5 {
   display: flex;
   justify-content: center;
+  top: 11px;
   align-items: center;
   position: absolute;
-  top: 11px;
-  right: 11px;
   min-height: 30px;
-  min-width: 30px;
   padding: 0;
-  background-color: #0d0d0d;
+  min-width: 30px;
+  background-color: #e0000f;
+  right: 11px;
   color: #000;
-  border-radius: 50%;
   border: 1px solid rgba(0,0,0,.1);
   cursor: pointer;
   transition-property: color;
   transition-duration: 250ms;
+  border-radius: 50%;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &:focus, 
@@ -88,19 +88,19 @@
 
 .button__modal1 {
   position: absolute;
-  display: flex;
-  justify-content: center;
-  background-color: #0d0d0d;
   align-items: center;
+  justify-content: center;
+  display: flex;
   top: 11px;
+  background-color: #e0000f;
   min-height: 30px;
-  right: 11px;
   border: 1px solid rgba(0,0,0,.1);
   min-width: 30px;
   padding: 0;
   border-radius: 50%;
-  color: #000;
+  right: 11px;
   transition-property: color;
+  color: #000;
   transition-duration: 250ms;
   cursor: pointer;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -118,17 +118,17 @@
   position: absolute;
   top: 11px;
   right: 11px;
-  min-height: 30px;
-  background-color: #0d0d0d;
+  background-color: #e0000f;
   min-width: 30px;
   border-radius: 50%;
   padding: 0;
-  border: 1px solid rgba(0,0,0,.1);
+  min-height: 30px;
   color: #000;
   transition-property: color;
-  transition-duration: 250ms;
+  border: 1px solid rgba(0,0,0,.1);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+  transition-duration: 250ms;
 
   &:focus, 
     &:hover {
@@ -142,16 +142,16 @@
   position: absolute;
   align-items: center;
   min-height: 30px;
-  top: 11px;
-  right: 11px;
-  background-color: #0d0d0d;
+  background-color: #e0000f;
   padding: 0;
   min-width: 30px;
-  color: #000;
   border: 1px solid rgba(0,0,0,.1);
+  top: 11px;
+  right: 11px;
   cursor: pointer;
-  border-radius: 50%;
   transition-property: color;
+  color: #000;
+  border-radius: 50%;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 
