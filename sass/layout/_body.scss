@@ -101,7 +101,7 @@ text-decoration: none;
 }
 
 .wrapper__items {
-    flex: 1 1 333px;
+    flex: 1 1 400px;
     display: list-item;
     text-align: -webkit-match-parent;
     margin-bottom: 30px;
@@ -432,9 +432,9 @@ button {
 
       .prod__price {
         font-size: 2.3em;
+        color: #353132;
+        font-weight: 400;
         margin: 20px 0px;
-        color: #0d0d0d;
-    font-weight: 400;
       }
 
       .wrap__prod {
