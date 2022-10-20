@@ -2925,10 +2925,11 @@ button {
 
 .wrapper__img {
   display: block;
+  top: 0%;
   width: 100%;
+  min-height: 405px;
   height: 100%;
   position: relative;
-  top: 0%;
 }
 
 .h1__hidden {
